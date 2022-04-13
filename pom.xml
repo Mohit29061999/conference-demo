@@ -43,8 +43,8 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 		</dependency>
 		
 
@@ -72,7 +72,7 @@
 				<configuration>
 					<executable>true</executable>
 					<source>1.8</source>
-					<target>1.8</target>
+					<source>1.8</source>
 				</configuration>
 			</plugin>
 		</plugins>
